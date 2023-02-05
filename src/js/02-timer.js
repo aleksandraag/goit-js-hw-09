@@ -49,8 +49,7 @@ const options = {
         timerSeconds.innerHTML = addLeadingZero(0);
       }
       btnStart.removeAttribute('disabled');
-      remainingTime =
-        selectedDates[0].getTime() - actualDate.getTimezoneOffset();
+      remainingTime = selectedDates[0].getTime() - actualDate.getTime();
     }
   },
 };
